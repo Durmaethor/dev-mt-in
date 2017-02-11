@@ -32,7 +32,7 @@ header {
     font-family: 'Lora', serif;
     font-size: 16.8px;
     line-height: 21px;
-    font-color: #272727;
+    color: #272727;
 }
 
 .main-container {
@@ -71,8 +71,4 @@ header {
 ul {
     padding: 0;
     list-style: none;
-}
-
-a {
-    
 }
