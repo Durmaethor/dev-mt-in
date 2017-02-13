@@ -63,6 +63,10 @@ header {
     color: #232323;
 }
 
+.sign-up-form {
+    margin: 0;
+}
+
 .right-column {
     text-align: center;
     width: 60%;
