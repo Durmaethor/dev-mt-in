@@ -36,9 +36,34 @@ header {
 }
 
 .main-container {
-    height: 750px;
-    width: 90%;
     margin: auto;
+    height: 600px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.left-column {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.left-column > p {
+    margin: 5px 0;
+}
+
+.right-column {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.t-image {
+    width: 360px;
 }
 
 
