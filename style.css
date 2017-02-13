@@ -67,6 +67,14 @@ header {
     margin: 0;
 }
 
+.reg-field {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #a9a9a9;
+    margin: 5px 0;
+    padding: 8px;
+}
+
 .right-column {
     text-align: center;
     width: 60%;
