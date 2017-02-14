@@ -23,11 +23,6 @@ header {
     width: 100%;
 }
 
-.header-links > li {
-    padding: 5px;
-}
-
-
 #dvmtn {
     font-family: 'Lora', serif;
     font-size: 16.8px;
@@ -123,6 +118,11 @@ button {
     border-bottom: 1px solid #dfe2e6;
     margin-top: 25px;
     padding-bottom: 25px;
+}
+
+.l-border {
+    border-bottom: 1px solid #dfe2e6;
+    margin-top: 25px;
 }
 
 .t-border {
