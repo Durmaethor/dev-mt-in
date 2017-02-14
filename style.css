@@ -59,6 +59,10 @@ header {
     margin: 5px 0;
 }
 
+.pJustify {
+    text-align: justify;
+}
+
 .form-font {
     font-family: 'Lora', serif;
     font-size: 12.07px;
