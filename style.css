@@ -35,6 +35,14 @@ header {
     color: #272727;
 }
 
+#dvmtn2 {
+    font-family: 'Lora', serif;
+    font-size: 16.8px;
+    line-height: 21px;
+    color: #272727;
+    padding-right: 125px;
+}
+
 .main-container {
     margin: auto;
     height: 600px;
