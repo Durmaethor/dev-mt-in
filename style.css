@@ -70,9 +70,34 @@ header {
 .reg-field {
     width: 250px;
     height: 30px;
-    border: 1px solid #a9a9a9;
+    border: 1px solid #dfe2e6;
     margin: 5px 0;
     padding: 8px;
+    border-radius: 2px;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+
+.bio-field {
+    width: 250px;
+    height: 150px;
+    border: 1px solid #dfe2e6;
+    border-radius: 2px;
+    margin: 5px 0;
+    padding: 8px;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+
+button {
+    width: 250px;
+    height: 30px;
+    background-color: #74fdf2;
+    border: none;
+    font-family: 'Lora', serif;
+    font-size: 12.07px;
+    color: #a9a9a9;
+    border-radius: 2px;
 }
 
 .right-column {
@@ -87,8 +112,9 @@ header {
 
 
 .b-border {
-    border-top: 1px solid #dfe2e6;
+    border-bottom: 1px solid #dfe2e6;
     margin-top: 25px;
+    padding-bottom: 25px;
 }
 
 .t-border {
