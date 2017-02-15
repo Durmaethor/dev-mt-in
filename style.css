@@ -41,7 +41,7 @@ header {
 .main-container {
     margin: auto;
     height: 600px;
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -51,8 +51,8 @@ header {
 
 .left-column {
     text-align: center;
-    width: 40%;
-    margin: auto;
+    width: 35%;
+    margin: 5px;
 }
 
 .left-column > p {
@@ -62,6 +62,19 @@ header {
 p.pJustify {
     text-align: justify;
     margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.b-tagline {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    color: #000000;
+    font-weight: 600;
 }
 
 .form-font {
@@ -110,8 +123,8 @@ button {
 
 .right-column {
     text-align: center;
-    width: 60%;
-    margin: auto;
+    width: 55%;
+    margin: 5px;
 }
 
 .t-image {
