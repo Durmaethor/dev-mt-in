@@ -48,15 +48,30 @@ header {
     align-items: center;
     align-content: center;
 }
-
+/* *****************************************
+    LEFT COLUMN SETTINGS
+**************************************** */
 .left-column {
     text-align: center;
     width: 35%;
     margin: 5px;
 }
 
-.left-column > p {
-    margin: 5px 0;
+.userName1 {
+    font-family: 'Lora', serif;
+    font-size: 38.4px;
+    line-height: 46px;
+    color: #272727;
+}
+
+p.b-tagline {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 p.pJustify {
@@ -68,14 +83,7 @@ p.pJustify {
     color: #000000;
 }
 
-.b-tagline {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
-    line-height: 14px;
-    color: #000000;
-    font-weight: 600;
-}
+
 
 .form-font {
     font-family: 'Lora', serif;
