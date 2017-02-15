@@ -59,8 +59,9 @@ header {
     margin: 5px 0;
 }
 
-.pJustify {
+p.pJustify {
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .form-font {
