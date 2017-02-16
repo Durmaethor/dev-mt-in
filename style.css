@@ -1,3 +1,7 @@
+/* *****************************************
+    MAIN BODY SETTINGS
+**************************************** */
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +10,10 @@ body {
     margin: 0;
     background-color: #fff;
 }
+
+/* *****************************************
+    HEADER SETTINGS
+**************************************** */
 
 header {
     height: 70px;
@@ -37,6 +45,10 @@ header {
     color: #272727;
     padding-right: 125px;
 }
+
+/* *****************************************
+    MAIN CONTAINER SETTINGS
+**************************************** */
 
 .main-container {
     margin: auto;
@@ -83,8 +95,6 @@ p.pJustify {
     color: #000000;
 }
 
-
-
 .form-font {
     font-family: 'Lora', serif;
     font-size: 12.07px;
@@ -118,7 +128,7 @@ p.pJustify {
     font-size: 16px;
 }
 
-button {
+.save-button {
     width: 250px;
     height: 30px;
     background-color: #74fdf2;
@@ -128,6 +138,10 @@ button {
     color: #a9a9a9;
     border-radius: 2px;
 }
+
+/* *****************************************
+    RIGHT COLUMN SETTINGS
+**************************************** */
 
 .right-column {
     text-align: center;
@@ -139,6 +153,9 @@ button {
     width: 360px;
 }
 
+/* *****************************************
+    BORDER LINE SETTINGS
+**************************************** */
 
 .b-border {
     border-bottom: 1px solid #dfe2e6;
@@ -155,6 +172,10 @@ button {
     border-top: 2px solid #dfe2e6;
     margin-top: 10px;
 }
+
+/* *****************************************
+    BOTTOM / MAIN NAVIGATION SETTINGS
+**************************************** */
 
 .main-nav {
     margin: auto;
@@ -180,6 +201,10 @@ ul {
     line-height: 18px;
     color: #a9a9a9;
 }
+
+/* *****************************************
+    LINK SETTINGS
+**************************************** */
 
 a {
     text-decoration: none;
