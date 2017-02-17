@@ -86,7 +86,8 @@ h1 {
     font-size: 38.4px;
     line-height: 46px;
     color: #272727;
-    text-align: right;
+    text-align: center;
+    padding-left: 50px;
 }
 
 p.b-tagline {
