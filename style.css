@@ -180,9 +180,26 @@ p.pJustify {
     margin: 5px;
 }
 
-.t-image {
-    width: 360px;
+/* *****************************************
+    RIGHT COLUMN - Friends View Box
+**************************************** */
+
+.filter-bar {
+    border: none;
 }
+
+.filter-bar:focus {
+    border: 2px solid #74fdf2;
+}
+
+.filter-bar, placeholder {
+    text-align: center;
+}
+
+.asc-button {
+
+}
+
 
 /* *****************************************
     BORDER LINE SETTINGS
