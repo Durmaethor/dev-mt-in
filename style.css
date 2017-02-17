@@ -11,6 +11,7 @@ body {
     background-color: #fff;
 }
 
+
 /* *****************************************
     HEADER SETTINGS
 **************************************** */
@@ -46,6 +47,7 @@ header {
     padding-right: 125px;
 }
 
+
 /* *****************************************
     MAIN CONTAINER SETTINGS
 **************************************** */
@@ -60,55 +62,22 @@ header {
     align-items: center;
     align-content: center;
 }
+
+
 /* *****************************************
     LEFT COLUMN SETTINGS
 **************************************** */
+
 .left-column {
     text-align: center;
     width: 35%;
     margin: 5px;
 }
 
-h1 {
-    margin: 0;
-}
 
-.firstName {
-    font-family: 'Lora', serif;
-    font-size: 38.4px;
-    line-height: 46px;
-    color: #272727;
-    text-align: left;
-    padding-left: 15px;
-}
-
-.lastName {
-    font-family: 'Lora', serif;
-    font-size: 38.4px;
-    line-height: 46px;
-    color: #272727;
-    text-align: center;
-    padding-left: 50px;
-}
-
-p.b-tagline {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
-    line-height: 14px;
-    color: #000000;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-p.pJustify {
-    text-align: justify;
-    margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
-    line-height: 14px;
-    color: #000000;
-}
+/* *****************************************
+    LEFT COLUMN - Sign up form
+**************************************** */
 
 .form-font {
     font-family: 'Lora', serif;
@@ -153,6 +122,53 @@ p.pJustify {
     color: #a9a9a9;
     border-radius: 2px;
 }
+
+
+/* *****************************************
+    LEFT COLUMN - Biography
+**************************************** */
+
+h1 {
+    margin: 0;
+}
+
+.firstName {
+    font-family: 'Lora', serif;
+    font-size: 38.4px;
+    line-height: 46px;
+    color: #272727;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.lastName {
+    font-family: 'Lora', serif;
+    font-size: 38.4px;
+    line-height: 46px;
+    color: #272727;
+    text-align: center;
+    padding-left: 50px;
+}
+
+p.b-tagline {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p.pJustify {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    color: #000000;
+}
+
 
 /* *****************************************
     RIGHT COLUMN SETTINGS
