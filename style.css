@@ -69,11 +69,24 @@ header {
     margin: 5px;
 }
 
-.userName1 {
+h1 {
+    margin: 0;
+}
+
+.firstName {
     font-family: 'Lora', serif;
     font-size: 38.4px;
     line-height: 46px;
     color: #272727;
+    text-align: left;
+}
+
+.lastName {
+    font-family: 'Lora', serif;
+    font-size: 38.4px;
+    line-height: 46px;
+    color: #272727;
+    text-align: right;
 }
 
 p.b-tagline {
