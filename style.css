@@ -79,6 +79,7 @@ h1 {
     line-height: 46px;
     color: #272727;
     text-align: left;
+    padding-left: 15px;
 }
 
 .lastName {
@@ -91,7 +92,7 @@ h1 {
 }
 
 p.b-tagline {
-    text-align: justify;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
     line-height: 14px;
