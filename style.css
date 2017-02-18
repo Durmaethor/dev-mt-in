@@ -71,6 +71,9 @@ header {
 .left-container {
     width: 46%;
     margin: auto;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .left-column {
@@ -179,8 +182,11 @@ p.pJustify {
     RIGHT COLUMN SETTINGS
 **************************************** */
 .right-container {
-    width: 46%%;
+    width: 46%;
     margin: auto;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .right-column {
