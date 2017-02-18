@@ -57,8 +57,8 @@ header {
     height: 600px;
     width: 80%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
 }
@@ -68,9 +68,14 @@ header {
     LEFT COLUMN SETTINGS
 **************************************** */
 
+.left-container {
+    width: 46%;
+    margin: auto;
+}
+
 .left-column {
     text-align: center;
-    width: 35%;
+    width: 215px;
     margin: 5px;
 }
 
@@ -173,16 +178,25 @@ p.pJustify {
 /* *****************************************
     RIGHT COLUMN SETTINGS
 **************************************** */
+.right-container {
+    width: 46%%;
+    margin: auto;
+}
 
 .right-column {
     text-align: center;
-    width: 55%;
+    width: 380px;
     margin: 5px;
 }
 
 /* *****************************************
     RIGHT COLUMN - Friends View Box
 **************************************** */
+
+
+.filter-bar-border {
+
+}
 
 .filter-bar {
     border: none;
@@ -198,6 +212,11 @@ p.pJustify {
 
 .asc-button {
 
+}
+
+.f-img {
+    width: 144px;
+    margin: 10px;
 }
 
 
