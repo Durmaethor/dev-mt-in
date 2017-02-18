@@ -85,7 +85,7 @@ header {
 
 .form-column {
     text-align: center;
-    width: 275px;
+    width: 280px;
     margin: 5px;
 }
 
@@ -107,8 +107,9 @@ header {
 
 .profile-edit {
     border: 1px solid #dfe2e6;
-    padding: 5px;
-    margin: 5px 0;
+    padding: 20px 15px 5px;
+    margin: 8px 0;
+    box-shadow: 0 1px 1px 1px #dfe2e6;
 }
 
 .reg-field {
@@ -145,19 +146,21 @@ header {
 }
 
 .save-changes {
-    width: 275px;
+    width: 280px;
     height: 30px;
     border: 1px solid #dfe2e6;
     background-color: transparent;
+    box-shadow: 0 1px 1px 1px #dfe2e6;    
 }
 
 .profile-settings {
-    width: 275px;
+    width: 280px;
     height: 30px;
     border: 1px solid #dfe2e6;
     background-color: transparent;
-    margin: 5px 0;
-    padding:5px;
+    margin: 8px 0;
+    padding: 5px;
+    box-shadow: 0 1px 1px 1px #dfe2e6;
 }
 
 
