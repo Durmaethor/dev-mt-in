@@ -12,6 +12,7 @@ body {
 }
 
 
+
 /* *****************************************
     HEADER SETTINGS
 **************************************** */
@@ -82,9 +83,15 @@ header {
     margin: 5px;
 }
 
+.form-column {
+    text-align: center;
+    width: 275px;
+    margin: 5px;
+}
+
 
 /* *****************************************
-    LEFT COLUMN - Sign up form
+    SIGN UP / UPDATE FORM
 **************************************** */
 
 .form-font {
@@ -96,6 +103,12 @@ header {
 
 .sign-up-form {
     margin: 0;
+}
+
+.profile-edit {
+    border: 1px solid #dfe2e6;
+    padding: 5px;
+    margin: 5px 0;
 }
 
 .reg-field {
@@ -129,6 +142,22 @@ header {
     font-size: 12.07px;
     color: #a9a9a9;
     border-radius: 2px;
+}
+
+.save-changes {
+    width: 275px;
+    height: 30px;
+    border: 1px solid #dfe2e6;
+    background-color: transparent;
+}
+
+.profile-settings {
+    width: 275px;
+    height: 30px;
+    border: 1px solid #dfe2e6;
+    background-color: transparent;
+    margin: 5px 0;
+    padding:5px;
 }
 
 
@@ -200,9 +229,9 @@ p.pJustify {
 **************************************** */
 
 
-.filter-bar-border {
+/*.filter-bar-border {
 
-}
+}*/
 
 .filter-bar {
     border: none;
@@ -216,9 +245,9 @@ p.pJustify {
     text-align: center;
 }
 
-.asc-button {
+/*.asc-button {
 
-}
+}*/
 
 .f-img {
     width: 144px;
