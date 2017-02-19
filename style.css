@@ -213,6 +213,7 @@ p.pJustify {
 /* *****************************************
     RIGHT COLUMN SETTINGS
 **************************************** */
+
 .right-container {
     width: 46%;
     margin: auto;
@@ -227,17 +228,22 @@ p.pJustify {
     margin: 5px;
 }
 
+
 /* *****************************************
     RIGHT COLUMN - Friends View Box
 **************************************** */
 
-
-/*.filter-bar-border {
-
-}*/
+.filter-bar-border {
+    width: 312px;
+    height: 35px;
+    margin: auto;
+    padding: 8px;
+    box-shadow: 0 1px 1px 1px #dfe2e6;    
+}
 
 .filter-bar {
     border: none;
+    width: 200px
 }
 
 .filter-bar:focus {
@@ -245,12 +251,14 @@ p.pJustify {
 }
 
 .filter-bar, placeholder {
-    text-align: center;
+    padding-left: 50px;
 }
 
-/*.asc-button {
-
-}*/
+.asc-button {
+    line-height: 8px;
+    border: 1px solid #000000;
+    background-color: transparent;
+}
 
 .f-img {
     width: 144px;
@@ -277,6 +285,7 @@ p.pJustify {
     border-top: 2px solid #dfe2e6;
     margin-top: 10px;
 }
+
 
 /* *****************************************
     BOTTOM / MAIN NAVIGATION SETTINGS
@@ -310,6 +319,7 @@ ul {
 .selected {
     border-bottom: 2px solid #74fdf2;
 }
+
 
 /* *****************************************
     LINK SETTINGS
