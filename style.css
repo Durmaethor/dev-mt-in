@@ -237,8 +237,8 @@ p.pJustify {
     width: 312px;
     height: 35px;
     margin: auto;
-    padding: 8px;
     box-shadow: 0 1px 1px 1px #dfe2e6;    
+    line-height: 35px;
 }
 
 .filter-bar {
@@ -252,12 +252,21 @@ p.pJustify {
 
 .filter-bar, placeholder {
     padding-left: 50px;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: black;
+
 }
 
-.asc-button {
-    line-height: 8px;
+#asc-button {
+    width: 70px;
+    height: 12px;
+    margin: auto;
     border: 1px solid #000000;
     background-color: transparent;
+    font-family: 'Lora', serif;
+    font-size: 6px;
+    color: #232323;
 }
 
 .f-img {
@@ -265,6 +274,18 @@ p.pJustify {
     margin: 10px;
 }
 
+
+/* *****************************************
+    RIGHT COLUMN - Search Bar
+**************************************** */
+
+.search-bar-sf {
+    width: 312px;
+    height: 35px;
+    margin: auto;
+    padding: 8px;
+    box-shadow: 0 1px 1px 1px #dfe2e6; 
+}
 
 /* *****************************************
     BORDER LINE SETTINGS
